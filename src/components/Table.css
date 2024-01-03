@@ -1,0 +1,23 @@
+.table-wrapper{
+    margin-top: 0.4rem;
+}
+
+.table{
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.table  thead tr th{
+    background-color:#F4F6F8;      
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+}
+
+
+

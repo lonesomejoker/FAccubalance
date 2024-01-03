@@ -1,0 +1,58 @@
+
+.container-1{
+  margin: 0;
+  padding-top: 43px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to left,#00AB55,white);
+}
+
+body{
+  background-image:linear-gradient(to left,#00AB55,white);
+}
+
+#hand{
+  border-radius: 20px;
+}
+#box-1{
+  position: relative;
+  padding: 8px;
+  border-style: hidden;
+  border-radius: 3px;
+
+}
+#box-2{
+  position: relative;
+  padding: 8px;
+  border-style: hidden;
+  border-radius: 3px;
+
+}
+
+#btn-1{
+  margin-top: 18px;
+  height:18px;
+  padding: 16px;
+  background-color: #00AB55;
+  border-style: hidden;
+  border-radius: 6px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box-3{
+  position: relative;
+  height: 18px;
+  padding: 8px;
+  border-style: hidden;
+  border-radius: 3px;
+}
+
+.sano-log{
+  display: flex;
+  position: relative;
+  gap:20px;
+}

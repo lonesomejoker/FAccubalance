@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.App{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration:none;
+  color:white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dash{
+  padding-left: 10rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container{
+  /* display: flex; */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#acc{
   display: flex;
-  flex-direction: column;
+  position: relative;
+  bottom: 4px;
+}
+
+main{
+  padding:20px;
+}
+
+
+.sidebar{
+  background-color: black;
+  color:white;
+  height: 100vh;
+}
+.top-section{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding:15px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 8px 12px;
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link:hover{
+  border-right:4px solid rgba(0, 171, 85, 1);
+  
+}
+.link:active{
+  background: silver;
+  border-radius: 7px;
+}
+
+.out{
+  display: flex;
+  margin:280px 14px;
+  gap:5px;
+  align-items: center;
+}
+
+#btn-log{
+  border-style:hidden;
+  background-color: black;
 }
