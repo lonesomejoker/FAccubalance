@@ -30,20 +30,20 @@ const routes=[{
  },
 ]
 
-const Sidebar = ({children}) => {
+const Sidebar = () => {
    const [isOpen,setIsOPen]=useState(false); 
    const toggle=()=> setIsOPen(!isOpen);
 
   return (
     <div className='main-container'>
-      <motion.div animate={{width:isOpen?"200px":"200px"}} className='sidebar'>
+      <motion.div animate={{width:isOpen?"100%":"100%"}} className='sidebar'>
       <div className='top-section'>
-         <img id='acc' src='./images/aconut.png' alt='acc' style={{height:'20px'}}></img>
+         <img id='acc' src='./images/aconut.png' alt='acc' style={{height:'2.7vh'}}></img>
         {isOpen && <h1 style={{fontSize:'15px',color:'#008542'}}>Accubalance </h1>}
         <div className='bar'><FaBars onClick={toggle}/></div>
       </div>
       <div>
-      <h1 style={{fontSize:'15px'}}>Menus</h1>
+        <h1 style={{fontSize:'15px'}}>Menus</h1>
        </div>
 
       <section className='routes'>
@@ -58,12 +58,9 @@ const Sidebar = ({children}) => {
       
       <div className='out'>
         <RiLogoutBoxLine color='red'/>
-       <button id='btn-log'style={{fontSize:'15px',color:'red'}}>Log Out</button>
+        <button id='btn-log'style={{fontSize:'15px',color:'red'}}>Log Out</button>
       </div>
       </motion.div>
-      <main>
-         {/* {children} */}
-      </main>
     </div>
   )
 }

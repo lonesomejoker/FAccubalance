@@ -31,20 +31,20 @@ const ModalState = ({onSubmit}) => {
             
             <div className='item item-a'>
              <p>customer name</p>
-             <input type='text' style={{borderRadius:'4px'}} name='cname' value={form.cname} onChange={handleChange}></input>
+             <input type='text' style={{borderRadius:'4px',backgroundColor:'gray'}} name='cname' value={form.cname} onChange={handleChange}></input>
              <p>product name</p>
-             <input type='text' style={{borderRadius:'4px'}} name='pname' value={form.pname} onChange={handleChange}></input>
+             <input type='text' style={{borderRadius:'4px',backgroundColor:'gray'}} name='pname' value={form.pname} onChange={handleChange}></input>
              <p>Date</p>
-             <input type='date' style={{borderRadius:'4px'}} name='date' value={form.date} onChange={handleChange}></input>
+             <input type='date' style={{borderRadius:'4px',backgroundColor:'gray'}} name='date' value={form.date} onChange={handleChange}></input>
             </div>
 
             <div className='item item-b'>
             <p>Mobile Number</p>
-             <input type='number' style={{borderRadius:'4px'}} name='num' value={form.num} onChange={handleChange}></input>
+             <input type='number' style={{borderRadius:'4px',backgroundColor:'gray',backgroundColor:'gray'}} name='num' value={form.num} onChange={handleChange}></input>
              <p>Quantity</p>
-             <input type='number' style={{borderRadius:'4px'}} name='quantity' value={form.quantity} onChange={handleChange}></input>
+             <input type='number' style={{borderRadius:'4px',backgroundColor:'gray'}} name='quantity' value={form.quantity} onChange={handleChange}></input>
              <p>Email</p>
-             <input type='email' style={{borderRadius:'4px'}} name='email' value={form.email} onChange={handleChange}></input> <br/>
+             <input type='email' style={{borderRadius:'4px',backgroundColor:'gray'}} name='email' value={form.email} onChange={handleChange}></input> <br/>
              <div className='btns'>
              <button  type='submit' style={{borderRadius:'4px',marginTop:'0.4rem',color:'white',
              backgroundColor:'#00AB55'}} onClick={handleSubmit}>Submit</button>

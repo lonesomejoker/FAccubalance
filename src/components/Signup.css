@@ -5,11 +5,6 @@
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  background-image: linear-gradient(to left,#00AB55,white);
-}
-
-body{
-  background-image:linear-gradient(to left,#00AB55,white);
 }
 
 #hand{
@@ -20,6 +15,7 @@ body{
   padding: 8px;
   border-style: hidden;
   border-radius: 3px;
+  background-color: grey;
 
 }
 #box-2{
@@ -27,7 +23,7 @@ body{
   padding: 8px;
   border-style: hidden;
   border-radius: 3px;
-
+  background-color: grey;
 }
 
 #btn-1{
@@ -49,6 +45,7 @@ body{
   padding: 8px;
   border-style: hidden;
   border-radius: 3px;
+  background-color: grey;
 }
 
 .sano-log{

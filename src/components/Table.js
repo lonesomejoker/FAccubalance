@@ -8,7 +8,7 @@ const Table = ({rows,deleteRow}) => {
 
   return (
     <div className='table-wrapper'>
-      <table className='table' style={{width:'100%'}} >
+      <table className='table' style={{width:'95%'}} >
         <thead>
           <tr style={{color:'blueviolet'}}>
           <th>Customer Name</th>

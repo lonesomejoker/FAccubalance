@@ -1,3 +1,5 @@
+
+
 .App{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
   margin:0;
@@ -30,12 +32,16 @@ main{
   padding:20px;
 }
 
+.main-container{
+  height: 100%;
+}
 
 .sidebar{
   background-color: black;
   color:white;
-  height: 100vh;
+  height:100%;
 }
+
 .top-section{
   display: flex;
   align-items: center;
@@ -71,3 +77,5 @@ main{
   border-style:hidden;
   background-color: black;
 }
+
+  

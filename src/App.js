@@ -4,7 +4,6 @@ import Dashboard from "./pages/Dashboard";
 import Sales from "./pages/Sales";
 import Stocks from "./pages/Stocks";
 import Purchase from "./pages/Purchase";
-import Sidebar from "./components/Sidebar";
 import SignUp from "./components/SignUp";
 import Login from "./components/Login";
 import DashboardLayout from "./pages/DashboardLayout";

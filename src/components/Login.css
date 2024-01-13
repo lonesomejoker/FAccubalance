@@ -1,45 +1,54 @@
-body {
-  background-image:linear-gradient(to left,#00AB55,white);
-}
-.container-2{
-    margin: 0;
-    padding-top: 43px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    background-image: linear-gradient(to left,#00AB55,white);
+container-1{
+  margin: 0;
+  padding-top: 43px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
 
 #hand{
-    border-radius: 20px;
+  border-radius: 20px;
 }
 #box-1{
-    position: relative;
-    height: 18px;
-    padding: 8px;
-    border-style: hidden;
-    border-radius: 3px;
+  position: relative;
+  padding: 8px;
+  border-style: hidden;
+  border-radius: 3px;
+  background-color: grey;
 
-  }
-  #box-2{
-    position: relative;
-    height: 18px;
-    padding: 8px;
-    border-style: hidden;
-    border-radius: 3px;
+}
+#box-2{
+  position: relative;
+  padding: 8px;
+  border-style: hidden;
+  border-radius: 3px;
+  background-color: grey;
+}
 
-  }
- 
-  #btn-1{
-    margin-top: 18px;
-    height:18px;
-    padding: 16px;
-    background-color: #00AB55;
-    border-style: hidden;
-    border-radius: 6px;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+#btn-1{
+  margin-top: 18px;
+  height:18px;
+  padding: 16px;
+  background-color: #00AB55;
+  border-style: hidden;
+  border-radius: 6px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+#box-3{
+  position: relative;
+  height: 18px;
+  padding: 8px;
+  border-style: hidden;
+  border-radius: 3px;
+  background-color: grey;
+}
+
+.sano-log{
+  display: flex;
+  position: relative;
+  gap:20px;
+}
