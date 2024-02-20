@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Accubalance/static/css/main.e68de0c1.css",
+    "main.js": "/Accubalance/static/js/main.40739017.js",
+    "static/js/787.aee38642.chunk.js": "/Accubalance/static/js/787.aee38642.chunk.js",
+    "index.html": "/Accubalance/index.html",
+    "main.e68de0c1.css.map": "/Accubalance/static/css/main.e68de0c1.css.map",
+    "main.40739017.js.map": "/Accubalance/static/js/main.40739017.js.map",
+    "787.aee38642.chunk.js.map": "/Accubalance/static/js/787.aee38642.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e68de0c1.css",
+    "static/js/main.40739017.js"
+  ]
+}
